@@ -12,6 +12,8 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 - **Backtesting Capabilities**: Allows for backtesting of trading strategies with historical data.
 
 ## Project Structure
+
+```
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -27,7 +29,7 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 │   └── backtesting_usd_btc.py
 └── docs/
     └── README.md
-
+```
 
 - **`api.py`**: Handles API interactions with the crypto exchange, including order placement and fetching market data.
 - **`config.py`**: Contains configuration settings and environment variable handling for API keys and endpoints.
