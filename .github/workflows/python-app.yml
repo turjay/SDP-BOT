@@ -37,3 +37,6 @@ jobs:
         API_SECRET: ${{ secrets.API_SECRET }}
       run: |
         pytest test/backtesting_usd-btc.py
+    - name: Run specific test file
+      run: |
+        pytest test/testforgithub.py
