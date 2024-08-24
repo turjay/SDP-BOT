@@ -1,8 +1,13 @@
+import sys
+import os
 import yfinance as yf
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
 from main import SignalPool, model_trade_signal
 from indicators import bollinger_trade_signal, macd_trade_signal, rsi_trade_signal
 
@@ -20,9 +25,9 @@ data.rename(columns={'Open': 'open', 'High': 'high', 'Low': 'low', 'Close': 'clo
 
 # Özellik mühendisliği ve etiketleme
 # Feature engineering and labeling
-data['bollinger_signal'] = bollinger_trade_signal(data)
-data['macd_signal'] = macd_trade_signal(data)
-data['rsi_signal'] = rsi_trade_signal(data)
+data['bollinger_signal'] = bollinger_trade_signal(data).map({'buy': 1, 'sell': -1, 'hold': 0})
+data['macd_signal'] = macd_trade_signal(data).map({'buy': 1, 'sell': -1, 'hold': 0})
+data['rsi_signal'] = rsi_trade_signal(data).map({'buy': 1, 'sell': -1, 'hold': 0})
 
 # Etiketleme için basit bir strateji: Kapanış fiyatının bir saat sonra artıp artmadığını belirlemek
 data['target'] = (data['close'].shift(-1) > data['close']).astype(int)
