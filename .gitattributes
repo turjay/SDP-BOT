@@ -1,2 +1,17 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Normalize text files to use LF line endings
+*.py eol=lf
+*.sh eol=lf
+*.txt text
+*.md text
+*.json text
+
+# Treat these files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+
+# Explicitly set the language for linguist
+*.py linguist-language=Python
