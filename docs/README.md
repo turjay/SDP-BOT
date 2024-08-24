@@ -39,6 +39,7 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 - **`signal_pool.py`**: Manages the aggregation of different trading signals to make a final decision.
 - **`utils.py`**: Utility functions for balance checks and quantity formatting.
 - **`backtesting_usd_btc.py`**: Script for backtesting the bot's performance using historical BTC/USD data.
+- **`machine_learning.py`**: Contains the implementation and training procedures for the machine learning model, including data preprocessing, model architecture definition, training loops, and evaluation metrics for generating trading signals.
 
 ## Getting Started
 
