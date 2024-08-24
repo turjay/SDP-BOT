@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm  # İlerleme çubuğu için / For progress bar
 
 # src dizinini Python yolu olarak ekle
+# Add src path as Python pat
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 from main import train_model, model_trade_signal, SignalPool
