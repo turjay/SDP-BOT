@@ -4,4 +4,4 @@ matplotlib==3.6.0
 yfinance==0.1.63
 tqdm==4.64.1
 scikit-learn==1.2.0
-numpy==1.23.5
+numpy==1.24.0
