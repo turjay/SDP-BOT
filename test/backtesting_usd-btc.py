@@ -5,7 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-# Gerekli modüller ve dosya yollarını ayarlıyoruz
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 from main import train_model, model_trade_signal, SignalPool
@@ -18,7 +17,7 @@ def get_yahoo_data():
         pd.DataFrame: İçinde Datetime ve close sütunları bulunan veri seti.
     """
     symbol = 'BTC-USD'
-    data = yf.download(symbol, period='3mo', interval='1h')
+    data = yf.download(symbol, period='1mo', interval='1h')
     data.reset_index(inplace=True)
     data.rename(columns={'Close': 'close'}, inplace=True)
     return data[['Datetime', 'close']]
