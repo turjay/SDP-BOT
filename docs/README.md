@@ -12,6 +12,11 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 - **Backtesting Capabilities**: Allows for backtesting of trading strategies with historical data.
 
 ## Project Structure
+<<<<<<< HEAD
+=======
+
+```
+>>>>>>> abac6d60ead4926b604087c526aabe3a7fabb30e
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -27,7 +32,11 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 │   └── backtesting_usd_btc.py
 └── docs/
     └── README.md
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> abac6d60ead4926b604087c526aabe3a7fabb30e
 
 - **`api.py`**: Handles API interactions with the crypto exchange, including order placement and fetching market data.
 - **`config.py`**: Contains configuration settings and environment variable handling for API keys and endpoints.
@@ -37,6 +46,10 @@ SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed 
 - **`signal_pool.py`**: Manages the aggregation of different trading signals to make a final decision.
 - **`utils.py`**: Utility functions for balance checks and quantity formatting.
 - **`backtesting_usd_btc.py`**: Script for backtesting the bot's performance using historical BTC/USD data.
+<<<<<<< HEAD
+=======
+- **`machine_learning.py`**: Contains the implementation and training procedures for the machine learning model, including data preprocessing, model architecture definition, training loops, and evaluation metrics for generating trading signals.
+>>>>>>> abac6d60ead4926b604087c526aabe3a7fabb30e
 
 ## Getting Started
 
@@ -81,4 +94,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 - **LinkedIn**: [Türkay Kurtaran](https://www.linkedin.com/in/türkay-kurtaran-27b660324/)
+<<<<<<< HEAD
 - **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
+=======
+- **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
+>>>>>>> abac6d60ead4926b604087c526aabe3a7fabb30e
