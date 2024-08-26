@@ -86,7 +86,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 - **LinkedIn**: [Türkay Kurtaran](https://www.linkedin.com/in/türkay-kurtaran-27b660324/)
-<<<<<<< HEAD
 - **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
-=======
 - **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
