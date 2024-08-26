@@ -2,7 +2,7 @@
 
 ## Overview
 
-SDP-BOT is an advanced cryptocurrency trading bot developed in Python, designed to analyze financial market data and execute trades based on machine learning and technical indicators. This bot is capable of backtesting strategies, evaluating market conditions, and making real-time trading decisions using a combination of machine learning models and traditional trading signals.
+SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, designed to analyze financial market data and execute trades based on machine learning and technical indicators. This bot is capable of backtesting strategies, evaluating market conditions, and making real-time trading decisions using a combination of machine learning models and traditional trading signals.
 
 ## Features
 
