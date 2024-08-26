@@ -17,7 +17,7 @@ def get_yahoo_data():
         pd.DataFrame: İçinde Datetime ve close sütunları bulunan veri seti.
     """
     symbol = 'BTC-USD'
-    data = yf.download(symbol, period='1mo', interval='1h')
+    data = yf.download(symbol, period='1d', interval='1h')
     data.reset_index(inplace=True)
     data.rename(columns={'Close': 'close'}, inplace=True)
     return data[['Datetime', 'close']]
