@@ -17,6 +17,11 @@ SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, 
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
+├── .gitignore
+├── .gitattributes
+├── SECURITY.md
+├── .github/workflows/
+│   └── python-app.yml
 ├── src/
 │   ├── api.py
 │   ├── config.py
@@ -26,7 +31,9 @@ SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, 
 │   ├── signal_pool.py
 │   └── utils.py
 ├── tests/
-│   └── backtesting_usd_btc.py
+│   ├── backtesting_usd_btc.py
+│   ├── machine_learning.py
+│   └── testforgithub.py
 └── docs/
     └── README.md
 ```
@@ -39,9 +46,8 @@ SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, 
 - **`signal_pool.py`**: Manages the aggregation of different trading signals to make a final decision.
 - **`utils.py`**: Utility functions for balance checks and quantity formatting.
 - **`backtesting_usd_btc.py`**: Script for backtesting the bot's performance using historical BTC/USD data.
-<<<<<<< HEAD
-=======
 - **`machine_learning.py`**: Contains the implementation and training procedures for the machine learning model, including data preprocessing, model architecture definition, training loops, and evaluation metrics for generating trading signals.
+- **`testforgithub.py`**: Script for github actions testing
 
 ## Getting Started
 
