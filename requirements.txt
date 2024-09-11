@@ -2,7 +2,13 @@ requests
 pandas
 matplotlib
 yfinance
+<<<<<<< HEAD
 tqdm
 scikit-learn
 numpy
 ccxt
+=======
+tqdm>=4.66.3
+scikit-learn
+numpy
+>>>>>>> 9bd2ee40ba510e2e19da446929feb5e2ad1c44de
