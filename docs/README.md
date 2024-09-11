@@ -31,9 +31,7 @@ SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, 
 │   ├── signal_pool.py
 │   └── utils.py
 ├── tests/
-│   ├── backtesting_usd_btc.py
-│   ├── machine_learning.py
-│   └── testforgithub.py
+│   └── backtesting_usd_btc.py
 └── docs/
     └── README.md
 ```
@@ -46,6 +44,7 @@ SDP-BOT is an advanced BTC-TURK cryptocurrency trading bot developed in Python, 
 - **`signal_pool.py`**: Manages the aggregation of different trading signals to make a final decision.
 - **`utils.py`**: Utility functions for balance checks and quantity formatting.
 - **`backtesting_usd_btc.py`**: Script for backtesting the bot's performance using historical BTC/USD data.
+- **`backtesting_usd_try.py`**: Script for backtesting the bot's performance using historical BTC/TRY data.
 - **`machine_learning.py`**: Contains the implementation and training procedures for the machine learning model, including data preprocessing, model architecture definition, training loops, and evaluation metrics for generating trading signals.
 - **`testforgithub.py`**: Script for github actions testing
 
@@ -70,9 +69,10 @@ Ensure you have Python 3.8+ installed. You will also need to install the require
 ### Usage
 
 1. Configure API Keys: Set up your API keys in the environment variables:
+    ```bash
     export API_KEY="your_api_key"
     export API_SECRET="your_api_secret"
-
+    ```
 2. Running the Bot:
     ```bash
     python src/main.py
@@ -93,7 +93,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **LinkedIn**: [Türkay Kurtaran](https://www.linkedin.com/in/türkay-kurtaran-27b660324/)
 - **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
-- **Instagram**: [turjayay](https://www.instagram.com/turjayay/)
+- **Discord**: turjay
 
 ## Disclaimer
 
